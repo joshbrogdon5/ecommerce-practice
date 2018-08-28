@@ -1,0 +1,1 @@
+update cart set quantity = $1 where cart.products_id = $2;
